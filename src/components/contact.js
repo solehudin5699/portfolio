@@ -86,13 +86,6 @@ export default function Contact({ width, height }) {
                 ></button>
               </Alert>
               <Form onSubmit={onSubmit} name="myPorfolioMessage">
-                {/* <Form.FloatingLabel
-                  controlId="floatingInput"
-                  label="Email address"
-                  className="mb-3"
-                >
-                  <Form.Control type="email" placeholder="name@example.com" />
-                </Form.FloatingLabel> */}
                 <Form.Group className="mb-3" controlId="formBasicName">
                   <Form.Label>Fullname</Form.Label>
                   <Form.Control
@@ -109,7 +102,7 @@ export default function Contact({ width, height }) {
                   <Form.Label>Email address</Form.Label>
                   <Form.Control
                     type="email"
-                    placeholder="Enter email"
+                    placeholder="Your email"
                     required
                     name="email"
                     value={form.email}
@@ -139,14 +132,20 @@ export default function Contact({ width, height }) {
                   {isLoading ? (
                     <>
                       <span
-                        class="spinner-border spinner-border-sm btn-loading me-1"
+                        className="spinner-border spinner-border-sm btn-loading me-1"
                         role="status"
                         aria-hidden="true"
                       ></span>
                       Loading...
                     </>
                   ) : (
-                    'Submit'
+                    <>
+                      <span
+                        className="fa fa-paper-plane me-1"
+                        aria-hidden="true"
+                      ></span>
+                      Send
+                    </>
                   )}
                 </Button>
               </Form>
