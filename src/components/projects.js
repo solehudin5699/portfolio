@@ -75,8 +75,8 @@ export default function Projects() {
                       size="sm"
                     >
                       <Button
-                        disabled={!Boolean(project.sourceCode)}
-                        href={project.sourceCode}
+                        disabled={!Boolean(project.repository)}
+                        href={project.repository}
                         target="_blank"
                         style={{
                           backgroundColor: 'transparent',
@@ -86,7 +86,7 @@ export default function Projects() {
                           color: '#6666ff',
                         }}
                       >
-                        {project.sourceCode
+                        {project.repository
                           ? 'Repository'
                           : 'Private Repository'}
                       </Button>

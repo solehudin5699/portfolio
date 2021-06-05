@@ -6,7 +6,7 @@ export const projects = [
     description:
       'Zwallet App is a digital wallet application where users can transfer between each other users via available contacts. For security, each user required to have a PIN. ',
     image: portfolio.zwallet,
-    sourceCode: 'https://github.com/solehudin5699/ZWALLET-frontend',
+    repository: 'https://github.com/solehudin5699/ZWALLET-frontend',
     demo: '',
   },
   {
@@ -15,7 +15,7 @@ export const projects = [
     description:
       'E-Dress App is a clothing sales app that makes it easy for customers to choose the product of their choice. Applications managed by the seller, which seller can add, subtract, or withdraw their sales products.',
     image: portfolio.edress,
-    sourceCode: 'https://github.com/solehudin5699/E-DRESS-frontend',
+    repository: 'https://github.com/solehudin5699/E-DRESS-frontend',
     demo: '',
   },
   {
@@ -24,7 +24,7 @@ export const projects = [
     description:
       'Mariblanja App is a a simple e-commerce application that provides various sales products and build with React Native. The user interface used is partially similar to tokopedia app.',
     image: portfolio.mariblanja,
-    sourceCode: 'https://github.com/solehudin5699/MariBlanja',
+    repository: 'https://github.com/solehudin5699/MariBlanja',
     demo: '',
   },
   {
@@ -33,7 +33,7 @@ export const projects = [
     description:
       'Tasklist App is a simple application that is used to manage tasks or activities in daily life. This app has timer or line clock. Built with react native and several other supporting libraries.',
     image: portfolio.tasklist,
-    sourceCode: 'https://github.com/solehudin5699/TaskList',
+    repository: 'https://github.com/solehudin5699/TaskList',
     demo: '',
   },
   {
@@ -42,7 +42,7 @@ export const projects = [
     description:
       'GoRead App is an application that provides literacy resources for students and public, also an ebook reader, built with React Native',
     image: portfolio.goread,
-    sourceCode: '',
+    repository: '',
     demo: '',
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
     description:
       'CitaRasa Web is a point of sale app that sells Indonesian specialties, there are 2 user levels (admin and cashier). Cashier can only log in and make transactions , while admins can register new users.',
     image: portfolio.citarasaweb,
-    sourceCode: 'https://github.com/solehudin5699/POS-frontend',
+    repository: 'https://github.com/solehudin5699/POS-frontend',
     demo: '',
   },
   {
@@ -60,7 +60,7 @@ export const projects = [
     description:
       'PersonalTodo is an application that is used to manage list of activities or todos. You can add, update, delete, or set todo status. There are term "TODO", "DOING", and "DONE for every todos.',
     image: portfolio.personaltodoweb,
-    sourceCode: 'https://github.com/solehudin5699/PersonalTodo',
+    repository: 'https://github.com/solehudin5699/PersonalTodo',
     demo: '',
   },
   {
@@ -69,7 +69,7 @@ export const projects = [
     description:
       'Blanja Web is a web-based e-commerce application that allows buyers to order products of their choice. Consists of 2 types of users, namely buyers and sellers.',
     image: portfolio.blanjaweb,
-    sourceCode: 'https://github.com/solehudin5699/blanja-frontend',
+    repository: 'https://github.com/solehudin5699/blanja-frontend',
     demo: '',
   },
   {
@@ -78,7 +78,7 @@ export const projects = [
     description:
       'Cekadzan is a simple website for checking imsakiyah schedules (imsak, prayer, etc). Use api from the API Fathimah Bot and built with Angular. This web is pwa, so it can be added to the home screen.',
     image: portfolio.cekadzanweb,
-    sourceCode: 'https://github.com/solehudin5699/CekAdzan',
+    repository: 'https://github.com/solehudin5699/CekAdzan',
     demo: '',
   },
   {
@@ -87,7 +87,7 @@ export const projects = [
     description:
       'Cekcuaca is a simple website for checking the weather in a specific city. Built with Vue.Js and using OpenWeather api.This web is a progressive web application, so you can install or add to mobile home screen.',
     image: portfolio.cekcuacaweb,
-    sourceCode: 'https://github.com/solehudin5699/CekCuaca',
+    repository: 'https://github.com/solehudin5699/CekCuaca',
     demo: '',
   },
   {
@@ -96,7 +96,7 @@ export const projects = [
     description:
       'The web for reading the Holy Quran. It can also be used to listen to verse by verse and copy verse the Quran. This is built with ReactJs.',
     image: portfolio.quranweb,
-    sourceCode: 'https://github.com/solehudin5699/QuranWeb',
+    repository: 'https://github.com/solehudin5699/QuranWeb',
     demo: '',
   },
   {
@@ -105,7 +105,7 @@ export const projects = [
     description:
       'Desktop app for reading the Holy Quran. It can also be used to listen to verse by verse and copy verse the Quran. This project is built with electron framework.',
     image: portfolio.qurandesktop,
-    sourceCode: 'https://github.com/solehudin5699/QuranDesktop',
+    repository: 'https://github.com/solehudin5699/QuranDesktop',
     demo: '',
   },
 ];
