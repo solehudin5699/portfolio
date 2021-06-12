@@ -58,7 +58,7 @@ export const projects = [
     id: Math.random(),
     name: 'PersonalTodo Web App',
     description:
-      'PersonalTodo is an application that is used to manage list of activities or todos. You can add, update, delete, or set todo status. There are term "TODO", "DOING", and "DONE for every todos.',
+      'PersonalTodo is an application that is used to manage list of activities or todos. You can add, update, delete, or set todo status. There are term "TODO", "DOING", and "DONE" for every todos.',
     image: portfolio.personaltodoweb,
     repository: 'https://github.com/solehudin5699/PersonalTodo',
     demo: '',
@@ -113,7 +113,7 @@ export const projects = [
 export const profile = {
   name: 'Solehudin',
   photo:
-    'https://avatars.githubusercontent.com/u/65361695?s=460&u=fd7a052b4138d86a05ac0e0f35a0d27aec16ce06&v=4',
+    'https://firebasestorage.googleapis.com/v0/b/test-40865.appspot.com/o/profile.png?alt=media&token=e199db0f-c96a-418d-9649-b3cf88c2c9c1',
   aboutme: [
     'Hi, I am a Fullstack Developer who has experience in creating web and mobile based applications. Knowing several frameworks for frontend and backend such as ReactJs, React Native, ExpressJs,and others.',
     'I have a strong will to learn new things and continue to improve skills, especially in the programming world, and able to work in a team.',
