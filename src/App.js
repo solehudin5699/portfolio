@@ -41,7 +41,7 @@ export default function App() {
       .catch((error) => {});
   };
   useEffect(() => {
-    (async function sendDeviceInfo() {
+    (async () => {
       try {
         const ip = await publicIp.v4();
         if (sessionStorage.getItem('YourIPAdDresS') !== ip) {
