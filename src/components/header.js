@@ -36,23 +36,19 @@ export default function Header() {
             </h4>
           </Fade>
           <Fade bottom duration={2500} delay={500} distance="150px">
-            <Button
-              style={{
-                height: '40px',
-                backgroundColor: '#6666ff',
-                outline: 'none',
-                outlineWidth: 0,
-                outlineColor: 'transparant',
-              }}
-            >
-              <p>
-                <span>
-                  <Link to="about" smooth duration={1000}>
-                    {'About me'}
-                  </Link>
-                </span>
-              </p>
-            </Button>
+            <Link to="about" smooth duration={500}>
+              <Button
+                style={{
+                  height: '40px',
+                  backgroundColor: '#6666ff',
+                  outline: 'none',
+                  outlineWidth: 0,
+                  outlineColor: 'transparant',
+                }}
+              >
+                About me
+              </Button>
+            </Link>
           </Fade>
           <Bounce bottom duration={1500} delay={2000} distance="150px">
             <div

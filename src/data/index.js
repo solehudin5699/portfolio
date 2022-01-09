@@ -119,6 +119,10 @@ export const profile = {
     'I have a strong will to learn new things and continue to improve skills, especially in the programming world, and able to work in a team.',
     'Mobile applications that have been made include Zwallet App, E-Dress App, Mariblanja App, Tasklist, GoRead. While web applications that have been made include POS Citarasa Web, Blanja Web, Cekcuaca, and others. In addition, I have also created several restful APIs for mobile and web applications.',
   ],
-  usernameGithub: 'solehudin5699',
+  github: 'solehudin5699',
   urlGithub: 'https://github.com/solehudin5699/',
+  gitlab: 'solehudin5699',
+  urlGitlab: 'https://gitlab.com/solehudin5699/',
+  linkedin: 'Solehudin',
+  urlLinkedin: 'https://www.linkedin.com/in/solehudin/',
 };
