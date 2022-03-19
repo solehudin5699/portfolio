@@ -4,6 +4,7 @@ import About from '../../components/about';
 import Projects from '../../components/projects';
 import Contact from '../../components/contact';
 import Footer from '../../components/footer';
+import FAB from '../../components/fab';
 
 export default function Index() {
   return (
@@ -13,6 +14,7 @@ export default function Index() {
       <Projects />
       <Contact />
       <Footer />
+      <FAB />
     </>
   );
 }
