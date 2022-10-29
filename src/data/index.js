@@ -2,12 +2,34 @@ import { portfolio } from '../assets/portfolio';
 export const projects = [
   {
     id: Math.random(),
+    name: "Qur'anku Mobile App",
+    description:
+      "Al-Quran app with Indonesian translation and various other features. Features available include 1) Al-Qur'an and its translation, 2) mark last read, 3) Asma'ul Husna, 4) daily prayers, 5) prayer times, 6) qibla direction, and 7) bookmark verses.",
+    image: portfolio.quranku,
+    repository: '',
+    demo: '',
+    playstore:
+      'https://play.google.com/store/apps/details?id=id.my.solehudin.quranku',
+  },
+  {
+    id: Math.random(),
     name: 'Zwallet Mobile App',
     description:
       'Zwallet App is a digital wallet application where users can transfer between each other users via available contacts. For security, each user required to have a PIN. ',
     image: portfolio.zwallet,
     repository: 'https://github.com/solehudin5699/ZWALLET-frontend',
     demo: '',
+    playstore: '',
+  },
+  {
+    id: Math.random(),
+    name: 'Restopedia Mobile App',
+    description:
+      'Application that provide restaurant search features, save favorite restaurants, display restaurant details, user reviews, scheduled notifications, and so on. Built using flutter.',
+    image: portfolio.restopedia,
+    repository: 'https://github.com/solehudin5699/Restopedia',
+    demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -17,6 +39,7 @@ export const projects = [
     image: portfolio.edress,
     repository: 'https://github.com/solehudin5699/E-DRESS-frontend',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -26,6 +49,7 @@ export const projects = [
     image: portfolio.mariblanja,
     repository: 'https://github.com/solehudin5699/MariBlanja',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -35,6 +59,7 @@ export const projects = [
     image: portfolio.tasklist,
     repository: 'https://github.com/solehudin5699/TaskList',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -44,6 +69,7 @@ export const projects = [
     image: portfolio.goread,
     repository: '',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -53,6 +79,7 @@ export const projects = [
     image: portfolio.citarasaweb,
     repository: 'https://github.com/solehudin5699/POS-frontend',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -62,6 +89,7 @@ export const projects = [
     image: portfolio.personaltodoweb,
     repository: 'https://github.com/solehudin5699/PersonalTodo',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -71,6 +99,7 @@ export const projects = [
     image: portfolio.blanjaweb,
     repository: 'https://github.com/solehudin5699/blanja-frontend',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -80,6 +109,7 @@ export const projects = [
     image: portfolio.cekadzanweb,
     repository: 'https://github.com/solehudin5699/CekAdzan',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -89,6 +119,7 @@ export const projects = [
     image: portfolio.cekcuacaweb,
     repository: 'https://github.com/solehudin5699/CekCuaca',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -98,6 +129,7 @@ export const projects = [
     image: portfolio.quranweb,
     repository: 'https://github.com/solehudin5699/QuranWeb',
     demo: '',
+    playstore: '',
   },
   {
     id: Math.random(),
@@ -107,6 +139,7 @@ export const projects = [
     image: portfolio.qurandesktop,
     repository: 'https://github.com/solehudin5699/QuranDesktop',
     demo: '',
+    playstore: '',
   },
 ];
 

@@ -10,6 +10,8 @@ import cekadzanweb from './cekadzanweb.png';
 import cekcuacaweb from './cekcuacaweb.png';
 import quranweb from './quranweb.png';
 import qurandesktop from './qurandesktop.png';
+import quranku from './quranku.png';
+import restopedia from './restopedia.png';
 
 export const portfolio = {
   zwallet,
@@ -24,4 +26,6 @@ export const portfolio = {
   cekcuacaweb,
   quranweb,
   qurandesktop,
+  quranku,
+  restopedia,
 };

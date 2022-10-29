@@ -84,6 +84,7 @@ export default function Projects() {
                           marginRight: '10px',
                           borderColor: '#6666ff',
                           color: '#6666ff',
+                          display: project.playstore ? 'none' : 'block',
                         }}
                       >
                         {project.repository
@@ -111,6 +112,17 @@ export default function Projects() {
                           Demo
                         </Button>
                       )}
+                      <Button
+                        href={project.playstore}
+                        style={{
+                          backgroundColor: '#6666ff',
+                          borderRadius: '10px',
+                          marginRight: '10px',
+                          display: project.playstore ? 'block' : 'none',
+                        }}
+                      >
+                        Download on Playstore
+                      </Button>
                     </ButtonGroup>
                   </Card.Body>
                 </Card>
